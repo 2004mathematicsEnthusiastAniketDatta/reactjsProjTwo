@@ -19,7 +19,8 @@ function App() {
             onClick={() => setColorState(colorState === "white" ? "grey" : "white")}
           >
             Switch Theme
-          </button>  {/* Switch Theme Button */}
+          </button> 
+           {/* Switch Theme Button */}
         </div>
         {/* 
           * Head
@@ -35,7 +36,7 @@ function App() {
          
          
          */}
-
+        
       </div> 
     </>
   )
