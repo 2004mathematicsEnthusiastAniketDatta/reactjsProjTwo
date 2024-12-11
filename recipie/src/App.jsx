@@ -16,7 +16,7 @@ function App() {
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
           <button 
             className={`px-6 py-2 rounded-full text-white ${colorState === "white" ? "bg-blue-500" : "bg-gray-900"} hover:bg-${colorState === "white" ? "blue-600" : "gray-800"} transition duration-200`}
-            onClick={() => setColorState(colorState === "white" ? "orange" : "white")}
+            onClick={() => setColorState(colorState === "white" ? "grey" : "white")}
           >
             Switch Theme
           </button>  {/* Switch Theme Button */}
